@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Anastasiia Kyrysiul"
+  },
+  "text": {
+    "more": "Вершинами графа є одиниці ЛСП ПАНДЕМІЯ, а ребра позначають взаємозв’язки між ними. \nВідтінками синього кольору виділено лексичні одиниці ЛСП ПАНДЕМІЯ, а насиченість кольору і розмір вершини залежить від кількості семних зав’язків слова з іншими одиницями поля. Така ж тенденція простежується і в ребрах графа.\n",
+    "intro": "Когнітивно-семний граф ЛСП ПАНДЕМІЯ ",
+    "title": "Когнітивно-семний граф ЛСП ПАНДЕМІЯ "
+  },
+  "legend": {
+    "edgeLabel": "Взаємозв’язки між конституантами поля",
+    "colorLabel": "Насиченість кольору і розмір вершин графа відображають кількість семних зв’язків слова з іншими одиницями поля",
+    "nodeLabel": "Конституанти поля"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": "Label"
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
